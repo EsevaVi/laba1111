@@ -1,1 +1,5 @@
 *.jpg
+!CMakeLists.txt
+!laba_1.cpp
+!laba_2.cpp
+r[12].txt

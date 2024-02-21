@@ -1,0 +1,10 @@
+^C:\USERS\VIKA\DESKTOP\RE\LABA1111\NEWRES2\CMAKEFILES\A78CAAB741B883553D2ABA575529783F\GENERATE.STAMP.RULE
+setlocal
+C:\Users\Vika\Downloads\cmake-3.29.0-rc1-windows-x86_64\cmake-3.29.0-rc1-windows-x86_64\bin\cmake.exe -SC:/Users/Vika/Desktop/Re/laba-3.0/CMake -BC:/Users/Vika/Desktop/Re/laba1111/NewRes2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Vika/Desktop/Re/laba1111/NewRes2/NewRes2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
